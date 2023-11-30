@@ -13,9 +13,6 @@ class Cleric{
     if(MP>=5){
       MP = MP-5;
       HP = MaxHP;
-      print('HP:$HP, MP:$MP');
-    } else{
-      print('스킬을 사용할 수 없습니다.');
     }
   }
 
@@ -30,14 +27,6 @@ class Cleric{
     if(MP>10){
       MP = MaxMP;
     }
-    print(plusMP(sec));
-    print('$MP');
   }
 
-}
-
-void main() {
-  Cleric cleric = Cleric('cold', 20, 9);
-  cleric.selfAid();
-  cleric.pray(5);
 }

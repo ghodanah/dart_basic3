@@ -11,9 +11,6 @@ class Cleric{
     if(MP>=5){
       MP = MP-5;
       HP = MaxHP;
-      print('HP:$HP, MP:$MP');
-    } else{
-      print('스킬을 사용할 수 없습니다.');
     }
   }
 
