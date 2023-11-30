@@ -11,6 +11,8 @@ class Cleric{
     if(MP>=5){
       MP = MP-5;
       HP = MaxHP;
+    } else {
+      print('MP가 부족하여 스킬을 사용할 수 없습니다.');
     }
   }
 

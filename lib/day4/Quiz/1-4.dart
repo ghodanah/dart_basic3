@@ -13,20 +13,24 @@ class Cleric{
     if(MP>=5){
       MP = MP-5;
       HP = MaxHP;
+    } else {
+      print('MP가 부족하여 스킬을 사용할 수 없습니다.');
     }
+    print('HP: $HP, HP: $MP');
   }
 
-  void pray(int sec) {
+  int pray(int sec) {
     int random = Random().nextInt(3);
-    int plusMP(sec) {
-      return sec + random;
-    }
+    int plusMP = sec + random;
 
-    MP = MP + plusMP(sec);
+    MP = MP + plusMP;
 
     if(MP>10){
       MP = MaxMP;
     }
-  }
+    print('HP: $HP, HP: $MP');
+    print('MP가 $plusMP만큼 회복되었습니다.');
 
+    return  plusMP;
+  }
 }
