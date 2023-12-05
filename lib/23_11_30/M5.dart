@@ -1,4 +1,3 @@
-import 'package:untitled2/day2/function.dart';
 
 class Card0 {
   late int a;

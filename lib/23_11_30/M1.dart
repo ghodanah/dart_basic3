@@ -1,6 +1,5 @@
 //더 큰수 판별하기
 
-import 'package:untitled2/day2/function.dart';
 
 class Maxnumber{
   int a;

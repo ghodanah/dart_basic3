@@ -4,7 +4,6 @@
 // 대한민국의 도시별 인구수 (순서 상관 없음) - Map
 
 //이름을 가지는 Person 클래스를 작성하시오. Person은 반드시 이름을 포함해야 합니다.
-import 'package:untitled2/day2/variables_1.dart';
 
 class Person {
   String name;

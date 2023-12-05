@@ -1,4 +1,3 @@
-import 'package:untitled2/day2/function.dart';
 
 class Even{
   int A;
