@@ -3,20 +3,20 @@ import 'Sword.dart';
 
 class Hero {
   String name;
-  int _hp;
+  double _hp;
   Sword? sword;
 
   Hero({
     required this.name,
-    required int hp,
+    required double hp,
     this.sword,
   }) : _hp = hp;
 
   // getter
   // 프로퍼티
-  int get hp => _hp;
+  double get hp => _hp;
 
-  set hp(int value) {
+  set hp(double value) {
     if (value < 0) {
       throw Exception('hp는 0보다 작을 수 없다');
     }
