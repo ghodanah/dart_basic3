@@ -56,5 +56,4 @@ void main() {
 
   File file = File('company.txt');
   file.writeAsStringSync(jsonEncode(department.toJson()));
-
 }
