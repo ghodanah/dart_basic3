@@ -34,6 +34,7 @@ void main() {
       .toSet()
       .toList());
 
+
   // 2. 거래자가 근무하는 모든 도시를 중복 없이 나열하시오
   print(transactions
       .map((e) => e.trader.city)
